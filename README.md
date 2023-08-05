@@ -1,1 +1,1 @@
-# MyPyhtonPractice
+# pythonGreetings
