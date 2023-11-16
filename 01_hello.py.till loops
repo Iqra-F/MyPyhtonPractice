@@ -1,0 +1,45 @@
+import os
+print(os.listdir())
+
+
+'''answer = str(input("Is the information correct? Enter Y for yes or N for no: "))
+proceed="y" or "Y" 
+if answer==proceed:
+    print("this will do the calculation")
+else:
+    exit()
+
+
+name= str(input("please enter your ful name with first capital letter here, I will definately show it to u here inshaAllah:  "))
+n ="iqra" or "fatima" or "iqrah" or "fatimah" or "aiqa"
+if name==n:
+ print("it's a precious name no doubt")
+else:
+    yourGoodName=input("I need your name, please enter it here")
+    print(yourGoodName)
+# loops
+#while loop
+a=3
+i=10
+while i>0:
+    print(a+i)
+    i =i -1
+# for loop 
+mylist =["good", "bad", "iqra", "fatima", 2, 3,4, 5,18, 16]
+for i in mylist:
+    print(i)'''
+
+#range function in for loop
+a= range(15)
+for i in a:
+    print(i)
+    exit
+    print("----*****----")
+b= range(15,20)
+for i in b:
+    print(i)
+    print("----*****----")
+    exit
+c= range(15,25,2)
+for i in c:
+    print(i)

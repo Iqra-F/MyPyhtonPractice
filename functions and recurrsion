@@ -1,0 +1,100 @@
+import os
+print(os.listdir())
+
+#If i waant percentage , sum or average of marks without using function 
+# it woud be like this
+ 
+marks =[45 ,78 ,86 ,77]
+#sum= marks[0]+ marks[1]+ marks[2]+ marks[3]
+'''for item in marks:
+    print(item)
+print("sum of marks is here: "+str(sum(marks)))
+average= sum/4
+percentage = [sum/400]*100
+print(average)
+#print(sum)
+percentage = ((marks[0]+ marks[1]+ marks[2]+ marks[3])/400)*100
+print(percentage)'''
+
+'''# function example 1
+
+def function_1():
+    a=sum(marks)/400*100
+    return a
+marks =[45 ,78 ,86 ,77]
+per=function_1()
+print(per)
+marks =[4 ,7 ,8 ,7]
+per=function_1()
+print(per)
+marks =[5 ,8 ,6 ,77]
+per=function_1()
+print(per)
+marks =[4 ,8 ,86 ,77]
+per=function_1()
+print(per)
+
+
+# example 2
+
+def add():
+    a= nums.count(6)
+    return a
+nums=[1,2,3,3,4,4,5,5,,6,6,6,6,7,7,8,9,0]
+#for eachItem in nums:
+d= add()
+print(d)
+# function example 3
+def greetings(num):
+    print("Assalam o alaikum! it's day",num  )
+greetings(1)'''
+
+
+#lists
+mlist=[1,30,1,90,52,4,5]
+#to print list items 
+print(mlist[0])
+print(mlist[1])
+print(mlist[2])
+print(mlist[3])
+print(mlist[4])
+#to sort list
+#it will change original list
+mlist.sort()
+print(mlist)
+#to print reverse of sorted  list
+#it will change original list
+mlist.reverse()
+print(mlist)
+#list can store mixed data types
+mixlist=["iqra", "fatima",32,59,56,"iqra fatima is a good girl"] 
+print(mixlist[5])
+ 
+#list slicing(means printing only that part items which u want to print and neglect other items
+#it will not change original list
+#it will print items from index 1 to 4
+print(mixlist[1:4])
+#it will print items from index 1 to 5
+print(mixlist[1:5])
+#it will print full list i.e from 0 index to 5 index
+print(mixlist[0:5])
+#the first and last index values are default if we don't write any value like below I  did
+#it will print full list i.e from 0 index to 6 index
+print(mixlist[:])
+print(mixlist[5])
+#no matter if the last item u mention in list to print is out of range , it will print the list till last item
+#like here i write 100 as last item to print but it will not through errr saying "index is out of range"
+print(mixlist[0:100])
+
+#extended slicing, used to prin elements of list by skiping or jumping items 
+#print(mixlist[0:5:1]) are default values in extended slicing 0=1st indes, 5=last index
+# it will jump or skip one item and print others
+print(mixlist[0:5:2])
+# and 1 is default for 3rd value after 2nd semi colon , i can also write as
+print(mixlist[::])
+#OR
+print(mixlist[0:5:1]) # to print all values
+# nagative extended slicing ,  it will first reverse the list and them jump index
+new=[1, 2 ,3, 4 ,32 ,5 ,6 ,7 ]
+print(new[::-2]) # but there is a problem that it only works if 1st and 2nd values are set as default values
+#otherwise it will return empty list

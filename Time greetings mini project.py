@@ -18,3 +18,4 @@ if greetings==12:
   print("Assalam o alikum sir, it's night")
 else:
   ("time u just entered is not valid")
+  print("iqra g")
